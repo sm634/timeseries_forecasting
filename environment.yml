@@ -1,4 +1,4 @@
-name: kaggle_learn
+name: kaggle_env
 dependencies:
   - python=3.8.15
   - numpy=1.24.1
@@ -6,6 +6,8 @@ dependencies:
   - scipy=1.9.3
   - scikit-learn=1.2.0
   - xgboost=1.7.2
+  - matplotlib=3.6.2
+  - seaborn=0.12.2
   - pip:
       - python-decouple==3.6
       - kaggle==1.5.12
